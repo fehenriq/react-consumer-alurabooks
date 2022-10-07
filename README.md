@@ -1,7 +1,12 @@
+![Integrando seu projeto React com APIs](thumbnail.png)
+
 # AluraBooks
 
 O AluraBooks é uma loja virtual que vende livros da Casa do Código. 
 É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
+
+<img src="screencapture.png" alt="Imagem do AluraBooks" width="50%">
+
 
 ## 🔨 Funcionalidades do projeto
 
@@ -18,7 +23,7 @@ Se liga nessa lista de tudo que usaremos nessa formação:
 - `axios`
 - `Session Storage`
 - `TSDX`
-- `NPM` (foi criado uma biblioteca e a publicada no NPM)
+- `NPM` (no primeiro curso nós criamos uma biblioteca e a publicamos no NPM)
 - `Github Actions`
 
 E muito mais!
@@ -28,3 +33,7 @@ E muito mais!
 Para abrir e rodar o projeto, execute `npm i` para instalar as dependências e `npm start` para inicar o projeto.
 
 Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
+
+## 📚 Mais informações do curso
+
+O AluraBooks é o projeto utilizado durante toda a formação, e você pode navegar entre as branchs para encontrar o momento específico que está buscando.
