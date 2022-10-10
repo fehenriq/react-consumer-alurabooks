@@ -11,7 +11,9 @@ const BarraNavegacao = () => {
 
     const [modalCadastroAberta, setModalCadastroAberta] = useState(false)
     const [modalLoginAberta, setModalLoginAberta] = useState(false)
-    const [usuarioEstaLogado, setUsuarioEstaLogado] = useState(false)
+
+    const token = sessionStorage.getItem('token')
+    const [usuarioEstaLogado, setUsuarioEstaLogado] = useState<boolean>(token != null)
 
     const aoEfetuarLogin = () => {
         setUsuarioEstaLogado(true)
@@ -48,7 +50,7 @@ const BarraNavegacao = () => {
 
     const acoesQuandoLogado = (<>
         <li>
-            <Link to="/minha-conta/pedidos">Minha Conta</Link> 
+            <Link to="/minha-conta/pedidos">Minha Conta</Link>
         </li>
     </>)
 
@@ -92,7 +94,7 @@ const BarraNavegacao = () => {
         </ul>
         <ul className="acoes">
             {usuarioEstaLogado ? acoesQuandoLogado : acoesQuandoDeslogado}
-        </ul>   
+        </ul>
     </nav>)
 }
 
