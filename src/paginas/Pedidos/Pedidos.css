@@ -14,10 +14,13 @@
   padding: 12px;
 }
 
-button {
+.btn {
   background-color: transparent;
   color: #EB9B00;
   border: 1px solid #EB9B00;
   cursor: pointer;
   border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
 }
